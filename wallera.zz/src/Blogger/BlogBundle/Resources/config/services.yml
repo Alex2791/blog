@@ -1,0 +1,11 @@
+services:
+    app.twig_extension:
+        class: Blogger\BlogBundle\Twig\AppExtension
+        public: false
+        tags:
+            - { name: twig.extension }
+parameters:
+    # ..
+
+    # Blogger max latest comments
+    blogger_blog.comments.latest_comment_limit: 5

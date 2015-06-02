@@ -1,0 +1,11 @@
+first_us:
+    resource: "@FirstUsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+blogger_blog:
+    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

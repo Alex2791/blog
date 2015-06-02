@@ -1,0 +1,3 @@
+first_us_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FirstUsBundle:Default:index }
